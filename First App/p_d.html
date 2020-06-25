@@ -1,0 +1,15 @@
+{% extends 'a1/detail.html' %}
+
+{% block content %}
+    {% if post.pub_date %}
+    <div class="date">
+      {{post.pub_date}}
+    </div>
+    {% endif %}
+   <div class="title">
+    <h2 style="font-size:85px">{{post.title}}</h2>
+    </div>
+    <div class=text>
+    <p>{{post.text|linebreaksbr}}</p>
+    </div>
+{% endblock %}

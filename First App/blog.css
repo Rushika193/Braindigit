@@ -1,0 +1,57 @@
+h1 a{
+    color:red;
+    font-size:89px;
+   padding: 20px;
+    
+}
+
+h2 a,h3 a,h4 a
+{
+  color:fuchsia;
+  padding-left:20px;
+  font-size:79px;
+}
+
+
+h1 ,h2 ,h3 ,h4 {
+     font-family:'Lobster';
+    }
+
+.page_header{
+    margin-top: 0;
+    background-color:yellow;
+    height:25%;
+    padding:25px;
+    font-size:79px;
+}
+
+.date{
+    color:burlywood;
+    font-size:14px;
+}
+
+.title{
+    background-color: cyan;
+    font-size:69px;
+    color:peru;
+    padding-left:20px;
+    font-family:'Lobster';
+    margin-top:14%;
+    height:25%;
+    padding-top:5px;
+}
+
+.text
+{
+    color:aqua;
+    font-size:59px;
+    color:goldenrod;
+    font-family:'Lobster';
+    padding-left:20px;
+    
+}
+.post-form
+{
+ font-size:55px;
+ color: black;
+}
