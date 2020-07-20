@@ -1,0 +1,63 @@
+{%load static%}
+<html>
+<head>
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/css/3.2.0/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/css/3.2.0/bootstrap-theme.min.css">
+<link rel="stylesheet" href="{% static 'css/blog4.css'%}">
+ <title>Angels</title>
+<link rel = "icon" href =  "{% static 'css/images/logos.png'%}" type = "image/x-icon">
+</head>
+<body id="b">
+<center> <h1><img id="logo" src="{% static 'css/images/logo.png'%}">Angels</h1></center>
+      <div id="head">
+           <div id="fastop"><a href="{% url 'manage:registered'%}">Designs</a></div>
+           <div id="fastop"><a href="{% url 'manage:bookings' %}">Bookings</a></div>
+            <div id="fastop"><a href="{% url 'manage:ViewBookings' %}">view Bookings</a></div>
+           <div id="fastop"><a href="{% url 'manage:log'%}">Logout</a></div>       
+      </div>
+       <center><h1 id="s">Select the design</h1></center>
+      <div id="d">
+       <img id="design" src="{% static 'css/images/arabic.png'%}">
+            <div id="left">
+            <h3  >Design:Arabic <br>Price:Rs300</h3>
+            <a href="{% url 'manage:bookings'%}"><button type="button">book</a></button>
+           </div>
+       <img id="design" src="{% static 'css/images/indo-arabic.png'%}">
+       <div id="left">
+            <h3 > Design:Indo-Arabic<br> Price:Rs390 </h3>
+            <a href="{% url 'manage:bookings'%}"><button type="button">block</a></button>
+            </div>
+
+       <img id="design" src="{% static 'css/images/moroccon.png'%}">
+       <div id="left">
+            <h3  > Design:Moroccon<br> Price:Rs200 to Rs390</h3>
+              <a href="{% url 'manage:bookings'%}"><button type="button">block</a></button>
+              </div>
+
+       <img id="design" src="{% static 'css/images/love.png'%}">
+       <div id="left">
+            <h3  > Design:Kiddo<br> price:Rs450</h3>
+            <a href="{% url 'manage:bookings'%}"><button type="button">block</a></button>
+            </div>
+    </div>     
+    <div id="dess">
+       <img id="des" src="{% static 'css/images/bridal.png'%}">
+       <div id="right">
+            <h3 > Design:Bridal<br> Price:Rs1500 to Rs5000</h3>
+            <a href="{% url 'manage:bookings'%}"><button type="button">block</a></button>
+            </div>
+        
+        <img id="des" src="{% static 'css/images/western.png'%}">
+        <div id="right">
+            <h3 >Design:Indo-Western <br> Price:Rs350</h3>
+            <a href="{% url 'manage:bookings'%}"><button type="button">bock</a></button>
+            </div>
+       
+       <img id="des" src="{% static 'css/images/foot.png'%}">
+          <div id="right">
+            <h3 >Design:Floral foot <br> Price:Rs150 to Rs500</h3>
+            <a href="{% url 'manage:bookings'%}"><button type="button">block</a></button> </div>
+   </div>
+       </body>
+       </html>

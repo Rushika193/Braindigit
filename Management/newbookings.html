@@ -1,0 +1,95 @@
+{%load static%}
+<html>
+<head>
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/css/3.2.0/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/css/3.2.0/bootstrap-theme.min.css">
+<link rel="stylesheet" href="{% static 'css/blog5.css'%}">
+ <title>Angels</title>
+<link rel = "icon" href =  "{% static 'css/images/logos.png'%}" type = "image/x-icon">
+</head>
+<body id="b">
+<center> <h1><img id="logo" src="{% static 'css/images/logo.png'%}">Angels</h1></center>
+      <div id="head">
+           <div id="fastop"><a href="{% url 'manage:registered'%}">Designs</a></div>
+           <div id="fastop"><a href="{% url 'manage:bookings' %}">Bookings</a></div>
+            <div id="fastop"><a href="{% url 'manage:ViewBookings' %}">View Bookings</a></div>
+           <div id="fastop"><a href="{% url 'manage:log'%}">Logout</a></div>
+            
+       </div>
+      
+      <table>
+      <thead>
+             <tr>
+                <th>FullName</th>
+                <th>Design</th>
+                <th>Address</th>
+               <th>Email</th>
+                <th>PhoneNumber</th>
+                <th>Date and Time</th>
+                 <th>Status</th>
+                 
+              </tr>
+       </thead>           
+        <tbody>
+        {% for post in posts%}   
+          <tr>
+           
+          <td>{{post.FullName}}</td>
+             <td>{{post.Design}}</td>
+             <td>{{post.Address}}</td>
+             <td>{{post.Email}}</td>
+            <td>{{post.PhoneNumber}}</td>
+            <td>{{post.pub_date}}</td>
+             <td>Accepted</td>
+        {% endfor %}
+            
+        </tbody>
+        </body>
+        </html>      {%load static%}
+<html>
+<head>
+<title>Angels</title>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/css/3.2.0/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/css/3.2.0/bootstrap-theme.min.css">
+<link rel="stylesheet" href="{% static 'css/blog5.css'%}">
+</head>
+<body id="b">
+<center> <h1><img id="logo" src="{% static 'css/images/logo.png'%}">Angels</h1></center>
+      <div id="head">
+           <div id="fastop"><a href="{% url 'manage:registered'%}">Designs</a></div>
+           <div id="fastop"><a href="{% url 'manage:bookings' %}">Bookings</a></div>
+            <div id="fastop"><a href="{% url 'manage:ViewBookings' %}">View Bookings</a></div>
+           <div id="fastop"><a href="{% url 'manage:contact'%}">Logout</a></div>
+            
+       </div>
+      
+      <table>
+      <thead>
+             <tr>
+                <th>FullName</th>
+                <th>Design</th>
+                <th>Address</th>
+               <th>Email</th>
+                <th>PhoneNumber</th>
+                <th>Date and Time</th>
+                 <th>Status</th>
+                 
+              </tr>
+       </thead>           
+        <tbody>
+        {% for post in posts%}   
+          <tr>
+           
+          <td>{{post.FullName}}</td>
+             <td>{{post.Design}}</td>
+             <td>{{post.Address}}</td>
+             <td>{{post.Email}}</td>
+            <td>{{post.PhoneNumber}}</td>
+            <td>{{post.pub_date}}</td>
+             <td>Accepted</td>
+        {% endfor %}
+            
+        </tbody>
+        </body>
+        </html>      

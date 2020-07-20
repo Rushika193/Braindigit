@@ -1,0 +1,26 @@
+{%load static%}
+<html>
+<head>
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="{% static 'css/blog2.css' %}">
+<title>Angels</title>
+<link rel = "icon" href =  "{% static 'css/images/logos.png'%}" type = "image/x-icon">
+</head>
+<body id="bb">
+   <center> <h1><img id="logo" src="{% static 'css/images/logo.png'%}">Beautiful Creations</h1></center>
+      <div id="head">
+           <div id="fastop"><a href="{% url 'manage:login'%}">Home</a></div>
+           <div id="fastop"><a href="{% url 'manage:about' %}">About us</a></div>
+           <div id="fastop"><a href="{% url 'manage:contact'%}">Contact-us</a></div>
+           <div id="fastop"> <a href="{% url 'manage:log'%}">User login</a></div>     
+       </div>
+</body>
+<p id="text">Our <b>Angels Mehendi Center</b> is located<br>in Palam Vihar near sector 23 market.<br><img id="im" src="{% static 'css/images/m.png'%}"></p><br>
+<img id="imgg" src="{% static 'css/images/map.png'%} ">
+
+<p> For any query contact <br>9087654312<br>9656789087<br>Email-Id:Angels@yahoo.com.<br>
+Opening-time: 9 A.M.<br>Closing-time: 9:P.M.</p>
+
+</html>

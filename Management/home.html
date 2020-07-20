@@ -1,0 +1,24 @@
+{%load static%}
+<html>
+<head>
+    
+       <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+        <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+        <title>Angels</title>
+<link rel = "icon" href =  "{% static 'css/images/logos.png'%}" type = "image/x-icon">
+</head>
+<body id="b">
+     
+     <center> <h1><img id="logo" src="{% static 'css/images/logo.png'%}">Beautiful Creations</h1></center>
+      <div id="head">
+           <div id="fastop"><a href="{% url 'manage:login'%}">Home</a></div>
+           <div id="fastop"><a href="{% url 'manage:about' %}">About us</a></div>
+           <div id="fastop"><a href="{% url 'manage:contact'%}">Contact-us</a></div>
+           <div id="fastop"><a href="{% url 'manage:log'%}">User login</a></div>     
+       </div>
+       <img id="image" src="{% static 'css/images/untitled.png' %}">
+        <p id="intro">Angels <br> Mehendi Center</p>
+        
+</body>
+</html>

@@ -1,0 +1,99 @@
+#head{
+    
+    height:10%;
+    width:1400px;
+    background-color:rgb(246, 13, 91);
+}
+
+#fastop{
+    font-size: 35px;
+    color:palevioletred;
+    float:left; 
+    position: relative;
+    padding:12px;
+    margin-right:55px;
+    margin-left:95px;
+}
+#logo{
+    width:10%;
+    height:20%;
+    margin-left:10%;
+    position: relative;
+}
+#d{
+    float:left;
+    margin-top:0%;
+    width:500px;
+    height:500px;  
+    margin-right:10%;
+}
+#design{
+    border-radius:50%;
+    height:43%;
+    float:left;
+    position:relative;
+    width:28%;
+    margin-left:4%;
+    margin-bottom: 2%;
+    margin-right:6%;
+}
+#des{
+  
+    border-radius:50%;
+    float:right;
+    height:43%;
+    margin-left:88%;
+    width:29%;
+    margin-right:28%;
+    position: relative;
+    padding-top: 3%;
+    margin-top:1px;
+}
+#dess
+{
+    float:right;
+ margin-top:1%;
+ width:550px;
+ height:550px;
+ 
+ margin-left:10%;
+}
+#left
+{
+   width:80px;
+  
+    margin-left:6%;
+    color:black;
+    font-family: emoji;
+    font-size: 84%;
+}
+#right
+{
+    font-size: 84%;
+    width:80px;
+    float:right;
+    margin-right:29%;
+    color:black;
+    font-family: emoji;
+   
+}
+#b{
+    background-color:lightpink;
+}
+#s{
+    color:fuchsia;
+    font-family: emoji;
+}
+#logos
+{
+    height:10%;
+    width:5%;
+    border-radius:60%;
+}
+    
+h1{
+        font-size: 70px;
+        color: rgb(206, 0, 120);
+        margin-top:3%;
+        font-family:Lucida Handwriting;
+    }
