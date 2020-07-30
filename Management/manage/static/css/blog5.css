@@ -1,0 +1,61 @@
+#head{
+    
+    height:4%;
+    width:1520px;
+    background-color:rgb(246, 13, 91);
+}
+#fastop{
+    font-size: 25px;
+    color:peachpuff;
+    float:left; 
+    position: relative;
+    padding:2px;
+    margin-right:4%;
+    margin-left: 4%;
+    
+    width:8%
+}
+#logo{
+    width:7%;
+    height:26%;
+    margin-left:0%;
+    position: relative;
+}
+#b{
+    background-color:gainsboro;
+}
+#ff{
+    font-size: 78%;
+    font-family: emoji;
+    color:crimson;
+    float:left;
+}
+
+#logos{
+        height:10%;
+        width:5%;
+        border-radius:60%;
+    }
+
+#booking{
+    font-size:45%;
+    height:16%;
+    width:55%;
+    
+}    
+#shift{
+    margin-top:5%;
+    
+    margin-right:55%;
+    margin-bottom: 3%;
+}
+
+table,th,td{
+    border: 1px solid black;
+    width:60%;
+    margin-left: 14%;
+    text-align: center;
+    font-size:25px; 
+    border-color:black;
+    padding:5px;	
+margin-top:5%}

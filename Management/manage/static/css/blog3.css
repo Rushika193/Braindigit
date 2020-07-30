@@ -1,0 +1,67 @@
+#head{
+    
+    height:8%;
+    width:1550px;
+    background-color:rgb(246, 13, 91);
+}
+#fastop{
+    font-size: 25px;
+    color:peachpuff;
+    float:left; 
+    position: relative;
+    padding:5px;
+    margin-right:5%;
+    margin-left: 7%;
+}
+#back{
+    background-color:pink;}
+
+#imm
+{    
+    float:right;
+    margin-left:30%;
+    margin-right:20%;
+    height:36%;
+    margin-top:17%;
+    border-style: outset;
+    border-radius:60%;
+    background-color: crimson;
+   ;
+    position: relative;
+}
+
+h1{
+    font-size: 70px;
+    color: rgb(206, 0, 120);
+    margin-top:3%;
+    font-family:Lucida Handwriting;
+}
+#logo{
+    width:10%;
+    height:30%;
+    margin-left:10%;
+    position: relative;
+}
+
+#wel{
+    float:right;
+    margin-left:45%;
+    margin-right:40%;
+   
+}
+#fast
+{
+    margin-top:2%;
+    font-size:85%;
+}
+#option{
+    margin-top: 5%;
+    margin-left:3%;
+    font-size: 35px;
+    color:black
+}
+#logos{
+    height:10%;
+    width:5%;
+    border-radius:60%;
+}

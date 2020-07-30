@@ -1,0 +1,117 @@
+#head{
+    
+    height:8%;
+    width:1600px;
+    background-color:rgb(246, 13, 91);
+}
+#fastop{
+    font-size: 25px;
+    color:peachpuff;
+    float:left; 
+    position: relative;
+    padding:5px;
+    margin-right:5%;
+    margin-left: 7%;
+}
+h1{
+    font-size: 70px;
+    color: rgb(206, 0, 120);
+    margin-top:3%;
+    font-family:Lucida Handwriting;
+}
+#logo{
+    width:10%;
+    height:30%;
+    margin-left:10%;
+    position: relative;
+}
+#imgg{
+    width:500px;
+    height:500px;
+  
+}
+p{
+    font-size: 30px;
+    font-family: emoji;
+    color:maroon;
+    float:left
+    
+    
+}
+#text{
+    font-size: 40px;
+    font-family: emoji;
+    color:maroon;
+    margin-right:5%;
+}
+b{
+    color:darkred;
+}
+#bb{
+    background-color:silver;
+}
+#back{
+    background-color:mintcream;
+    
+}
+#im{
+    width:500px;
+    height:500px;
+    float:left;
+    margin-left:5%;
+    border-radius: 34%;
+}
+#login{
+    padding-top:2%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    margin-top: 10%;
+    font-family: emoji;
+    background-color:rgb(153, 150, 150);
+    border-radius: 3%;
+    width:450px;
+    height:450px;
+    font-size: 15%;
+    color: whitesmoke;
+}
+#admin{
+    padding-top:1%;
+    padding-left: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    margin-top: 16%;
+    font-family: emoji;
+    background-color:lightpink;
+    border-radius: 3%;
+    width:400px;
+    height:400px;
+    font-size: 15%;
+    color: whitesmoke;
+}
+#sign{
+    font-size: 45px;
+    color:black
+}
+#option{
+    margin-top: 5%;
+    margin-left:3%;
+    font-size: 25px;
+    color:crimson
+}
+#icon{
+    margin-left:5%;
+}
+#fast
+{
+    margin-top:2%;
+    font-size:25px;
+    color:black;
+    height:9%;
+    width:54%
+}
+#logos{
+    height:10%;
+    width:5%;
+    border-radius:60%;
+}
