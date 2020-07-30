@@ -1,0 +1,60 @@
+{%load static%}
+<html>
+<head>
+  
+   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+   <link rel="stylesheet" href="{% static 'css/blog5.css' %}">
+   <title>Angels</title>
+   <link rel = "icon" href =  "{% static 'css/images/logos.png'%}" type = "image/x-icon">
+</head>
+
+<div style="background-attachment:absolute;
+    background-position:0% 0%;
+    background-size:cover;
+    background-image:url('{% static 'css/images/rose.jpg'%}');
+ 
+    width:1500px;height:1500px;position:absolute">
+<body>
+  <center> <h1><img  id="logo" src="{% static 'css/images/logo.png'%}">Beautiful Creations</h1></center>
+      <div id="head">
+           <div id="fastop"><a href="{% url 'manage:page'%}">Home</a></div>
+           <div id="fastop"><a href="{% url 'manage:viewrequests'%}">Appointments</a></div>
+           <div id="fastop"> <a href="{% url 'manage:Adminlogin'%}">Logout</a></div>
+           <div id="fastop">Hi, Admin</div>
+     </div>
+   
+<table >
+<div>
+<thead >
+   <tr>
+   <th >Customer name</th>
+   <th>Design selected</th>
+   <th>Date & Time</th>
+   <th>Payment mode</th>
+   <th>Status</th>
+   
+   </tr>
+</thead>
+</div>
+{%for tot_appointment in Tot_appointments%}
+<tbody>
+  <tr>
+  <td>{{tot_appointment.posts}}</td>
+  <td>{{tot_appointment.design}}</td>
+  <td>{{tot_appointment.date}} {{tot_appointment.time}}</td>
+  <td>paid</td>
+ 
+  <td >{{tot_appointment.stat}}</td>
+
+  <!--<td><button type="button" name="assign"><a href="{% url 'manage:book_assign_status'%}">Assign</a></button></td>!-->
+  </tr>
+  </tbody>
+{% endfor %}
+
+</table>
+</div>
+
+
+</body>
+</html>

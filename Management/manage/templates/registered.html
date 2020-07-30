@@ -1,0 +1,92 @@
+{%load static%}
+<html>
+<head>
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/css/3.2.0/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/css/3.2.0/bootstrap-theme.min.css">
+<link rel="stylesheet" href="{% static 'css/blog4.css'%}">
+ <title>Angels</title>
+<link rel = "icon" href =  "{% static 'css/images/logos.png'%}" type = "image/x-icon">
+</head>
+
+
+<body id="b">
+<center> <h1><img id="logo" src="{% static 'css/images/logo.png'%}">Angels</h1></center>
+      <div id="head">
+           <div id="fastop"><a href="{% url 'manage:registered'%}">Designs</a></div>
+           <div id="fastop"><a href="{% url 'manage:bookings' %}">Bookings</a></div>
+           <div id="fastop"><a href="{% url 'manage:appointments'%}">Add Appointment </a></div>
+            <div id="fastop"><a href="{% url 'manage:log'%}">Logout</a></div> 
+            <div id="fastop">Hi,{{user.username}}</div>      
+      </div>
+    
+       <center><h1 id="s">Select the design</h1></center>
+    
+      <div id="row">
+        <div id="design">
+            <img id="design" src="{% static 'css/images/arabic.png'%}">
+      
+            
+            <h3>Design: Arabic <br>Price: Rs300</h3>
+            <a href="{% url 'manage:bookings'%}"><button type="button">book</a></button>
+        </div>  
+
+        <div id="design"> 
+             <img id="design" src="{% static 'css/images/foot.png'%}">
+          
+            <h3 >Design: Floral foot <br> Price: Rs500</h3>
+            <a href="{% url 'manage:bookings'%}"><button type="button">book</a></button> </div>   
+
+         <div id="design">
+           <img  id="design" src="{% static 'css/images/indo-arabic.png'%}">
+
+           <h3 > Design: Indo-Arabic<br> Price: Rs390 </h3>
+            <a href="{% url 'manage:bookings'%}"><button type="button">book</a></button>
+           </div>
+        
+         <div id="design">
+            <img id="design" src="{% static 'css/images/moroccon.png'%}">
+            <h3  > Design: Moroccon<br> Price: Rs450</h3>
+              <a href="{% url 'manage:bookings'%}"><button type="button">book</a></button>
+          
+         </div>
+         <div id="design">   
+             <img id="design" src="{% static 'css/images/love.png'%}">
+             <h3  > Design: kiddo<br> price: Rs450</h3>
+            <a href="{% url 'manage:bookings'%}"><button type="button">book</a></button>
+            
+           </div>
+        
+         <div id="design">
+            <img id="design" src="{% static 'css/images/bridal.png'%}">
+            <h3 > Design: Bridal<br> Price: Rs5000</h3>
+            <a href="{% url 'manage:bookings'%}"><button type="button">book</a></button>
+           
+         </div>
+
+         <div id="design">
+         <img id="design" src="{% static 'css/images/western.png'%}">
+         <h3 >Design: Indo-Western <br> Price: Rs350</h3>
+            <a href="{% url 'manage:bookings'%}"><button type="button">book</a></button>
+            </div>
+        
+
+         <div id="design">
+             <img id="design" src="{% static 'css/images/west.jpg'%}">
+              <h3>Design: Western <br> Price: Rs550</h3>
+              <a href="{% url 'manage:bookings'%}"><button type="button">book</a></button>
+          </div>
+
+          <div id="design">
+             <img id="design" src="{% static 'css/images/raja-rani.jpg'%}">
+              <h3>Design: Rajasthani look<br> Price: Rs750</h3>
+              <a href="{% url 'manage:bookings'%}"><button type="button">book</a></button>
+          </div>
+   </div>
+         
+       
+  
+   
+       </body>
+     
+       </html>

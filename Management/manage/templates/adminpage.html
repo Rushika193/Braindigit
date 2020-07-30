@@ -1,0 +1,48 @@
+{%load static%}
+
+<html>
+<head>
+  
+   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+   <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+   <title>Angels</title>
+   <link rel = "icon" href =  "{% static 'css/images/logos.png'%}" type = "image/x-icon">
+</head>
+
+<div style="background-attachment:absolute;
+    
+    background-size:cover;
+    background-image:url('{% static 'css/images/wall4.jpg'%}');
+    width:1500;
+    height:1250px;position:absolute">
+
+<body>
+  <center> <h1><img id="logo" src="{% static 'css/images/logo.png'%}">Beautiful Creations</h1></center>
+      <div id="head">
+           <div id="fastop"><a href="{% url 'manage:page'%}">Home</a></div>
+           <div id="fastop" >
+               <a class="dropdown-item" href="{% url 'manage:viewrequests' %}">View Appointments</a>
+            </div>
+            
+           <div id="fastop"> <a href="{% url 'manage:Adminlogin'%}">Logout</a></div> 
+           <div id="fastop">Hi, Admin</div>
+      </div>
+  <div id="adm">   
+ <h5>Total Appointments=</h5>
+ <label>{{total_appointment}}</label>
+</div>
+ <br><br>
+  
+ <div id="adm">
+  <h5>Confirm Appointments=</h5>
+ <label>{{total_appointment_accepted}}</label></div><br><br>
+  
+<div id="adm">
+  <h5>New Appointments=</h5>
+ <label>{{total_appointment_pending}}</label></div>
+ </div>
+ 
+</body>
+</div>
+</html>       

@@ -1,0 +1,41 @@
+{%load static%}
+<html>
+<head>
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<link rel="stylesheet" href="{% static 'css/blog2.css' %}">
+<title>Angels</title>
+<link rel = "icon" href =  "{% static 'css/images/logos.png'%}" type = "image/x-icon">
+</head>
+<body id="back">
+   <center> <h1><img id="logo" src="{% static 'css/images/logo.png'%}">Beautiful Creations</h1></center>
+ <div id="head">
+           <div id="fastop"><a href="{% url 'manage:login'%}">Home</a></div>
+           <div id="fastop"><a href="{% url 'manage:about' %}">About us</a></div>
+           <div id="fastop"><a href="{% url 'manage:contact'%}">Contact-us</a></div>
+           <div id="fastop"> <a href="{% url 'manage:log'%}">User</a></div>  
+           <div id="fastop"> <a href="{% url 'manage:Adminlogin'%}">Admin </a></div>   
+ </div>
+
+     
+    
+    <center>
+    <div id="admin">
+    <form method="POST" action="" >
+        {% csrf_token %}
+        <h2 id="sign"> Admin login</h2><br>
+        <h2>Username</h2>
+        <input id="fast" type="username" name="username" size=42px required><br><br>
+        <h2>Password</h2>
+        <input id="fast" type="password"  name="password" size=42px required><br><br>
+        <input id="option" type="submit" value="submit">
+    </form> 
+        {% for message in messages%}
+       <h3>{{message}}</h3>
+       {% endfor %}
+      </div>
+     </center>    
+
+</body>
+</html>
