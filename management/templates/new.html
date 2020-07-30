@@ -1,0 +1,52 @@
+{%load static%}
+<html>
+<head>
+   
+   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/css/3.2.0/bootstrap.min.css">
+   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/css/3.2.0/bootstrap-theme.min.css">
+   <link rel="stylesheet" href="{% static 'css/blog3.css'%}">
+   <title>Angels</title>
+<link rel = "icon" href =  "{% static 'css/images/logos.png'%}" type = "image/x-icon">
+</head>
+
+<body id="back">
+<center> <h1><img id="logo" src="{% static 'css/images/logo.png'%}">Beautiful Creations</h1></center>
+      <div id="head">
+           <div id="fastop"><a href="{% url 'manage:login'%}">Home</a></div>
+           <div id="fastop"><a href="{% url 'manage:about' %}">About us</a></div>
+           <div id="fastop"><a href="{% url 'manage:contact'%}">Contact-us</a></div>
+           <div id="fastop"> <a href="{% url 'manage:log'%}">User</a></div>  
+           <div id="fastop"> <a href="{% url 'manage:adminsignup'%}">Admin</a></div>   
+       </div>
+
+
+    <div id="login">
+    <form method="POST" action="">
+            {% csrf_token %}<br><br>
+    
+            {{form.first_name.label}}
+            {{form.first_name}}<br><br>
+
+            {{form.last_name.label}}
+            {{form.last_name}}<br><br>
+
+            {{form.username.label}}
+            {{form.username}}<br><br>
+
+            {{form.email.label}}
+            {{form.email}}<br><br>
+
+            {{form.password1.label}}
+            {{form.password1}}<br><br>
+
+            {{form.password2.label}}
+            {{form.password2}}<br><br>
+            {{form.errors}}
+      <input id="option" type="submit" value="submit">
+      
+   
+     </div>
+     </form>  
+ 
+</body>
+</html>

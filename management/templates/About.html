@@ -1,0 +1,31 @@
+{%load static%}
+<html>
+<head>
+  
+   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+   <link rel="stylesheet" href="{% static 'css/blog.css' %}">
+   <title>Angels</title>
+   <link rel = "icon" href =  "{% static 'css/images/logos.png'%}" type = "image/x-icon">
+</head>
+<div style="background-position:absolute;background-image:url('{%static 'css/images/wall2.jpg'%}');
+        position:absolute;height:1150;width:1500;background-size:cover">
+<body>
+  <center> <h1><img id="logo" src="{% static 'css/images/logo.png'%}">Beautiful Creations</h1></center>
+      <div id="head">
+           <div id="fastop"><a href="{% url 'manage:login'%}">Home</a></div>
+           <div id="fastop"><a href="{% url 'manage:about' %}">About us</a></div>
+           <div id="fastop"><a href="{% url 'manage:contact'%}">Contact-us</a></div>
+           <div id="fastop"><a href="{% url 'manage:log'%}">User</a></div>
+           <div id="fastop"> <a href="{% url 'manage:adminsignup'%}">Admin </a></div> 
+           
+              
+       </div>
+   <h2><b>About Us</b></h2>
+   <img id="imgabt" src="{%static 'css/images/creations.png'  %}">
+   <p id="text"> Angels will make your special day more special. We give our customers best service
+   at reasonable amount. It's out moto to give you our best. And one thing we can promise is 
+   you won't be disappointed with us.</p> 
+</body>
+</div>
+</html>

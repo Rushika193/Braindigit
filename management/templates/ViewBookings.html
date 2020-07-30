@@ -1,0 +1,49 @@
+{%load static%}
+<html>
+<head>
+
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/css/3.2.0/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/css/3.2.0/bootstrap-theme.min.css">
+<link rel="stylesheet" href="{% static 'css/blog5.css'%}">
+<title >Angels</title>
+<link rel = "icon" href =  "{% static 'css/images/logos.png'%}" type = "image/x-icon">
+</head>
+<div style=" background-position:absolute;background-image:url('{% static 'css/images/wall2.jpg'%}');
+background-size:cover;position:0% 0%;height:1480;width:1480;position:absolute">
+<body >
+<center> <h1><img id="logo" src="{% static 'css/images/logo.png'%}">Angels</h1></center>
+      <div id="head">
+           <div id="fastop"><a href="{% url 'manage:registered'%}">Designs</a></div>
+           <div id="fastop"><a href="{% url 'manage:bookings' %}">Bookings</a></div>
+            <div id="fastop"><a href="{% url 'manage:ViewBookings' %}">View Bookings</a></div>
+           <div id="fastop"><a href="{% url 'manage:log'%}">Logout</a></div>
+            
+       </div>
+      <center>
+      <table>
+      <thead>
+             <tr>
+                 <th>Name</th> 
+                <th>Design</th>
+                <th>Time</th>
+                <th>Date</th>
+               <th>Status</th>              
+              </tr>
+       </thead>           
+        <tbody>
+        {% for apps in app%}   
+          <tr>
+              <td>{{apps.posts}}</td>
+             <td>{{apps.design}}</td>
+             <td>{{apps.time}}</td>
+             <td>{{apps.date}} </td>
+             <td>{{apps.stat}}</td>
+             <td><button type="submit" value="Assign">Assign</button></td>
+          </tr>
+        {% endfor %}
+            
+        </tbody>
+        </center>
+        </div>
+        </body>
+        </html>     
