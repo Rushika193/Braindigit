@@ -1,7 +1,13 @@
 #head{
     
     height:4%;
-    width:1520px;
+    width:1250px;
+    background-color:rgb(246, 13, 91);
+}
+#head1{
+    
+    height:8%;
+    width:1250px;
     background-color:rgb(246, 13, 91);
 }
 #fastop{
@@ -9,11 +15,11 @@
     color:peachpuff;
     float:left; 
     position: relative;
-    padding:2px;
-    margin-right:4%;
-    margin-left: 4%;
+    padding:5px;
+    margin-right:1%;
+    margin-left: 1%;
     
-    width:8%
+    
 }
 #logo{
     width:7%;
