@@ -113,13 +113,8 @@ def appointments(request):
 
   
 
-def delete(request,pid):
-    appointment=Appointment.objects.get(id=pid)
-    appointment.delete()
-    return redirect('viewrequests/')
-
 def viewrequests(request):
-    Tot_appointments=Appointment.objects.filter()  
+    Tot_appointments=Appointment.objects.filter().order_by('date')  
     return render(request,"viewrequests.html",{'Tot_appointments':Tot_appointments})
 
 
@@ -130,9 +125,9 @@ def logout(request):
     return redirect('log/')  
 
 def ViewBookings(request):
-    book=Status.objects.get(status='Accepted')
-    tot_appointment=Appointment.objects.filter(stat=book)
-    return render(request,"ViewBookings.html",{'tot_appointment':tot_appointment})
+    pro=Appointment.objects.get(stat="Pending")
+    tot_appointment=Appointment.objects.filter(stat=pro)
+    return render(request,"ViewBookings.html",{'app':tot_appointment})
 
 
 
@@ -155,31 +150,32 @@ def page(request):
     return render(request,"adminpage.html",context)  
 
 
-def book_assign_status(request):
+def book_assign_status(request,pid):
+    book=Appointment.objects.get(id=pid)
+    form= appointmentform(instance=book)
+    if request.method=="POST":
+        form= appointmentform(request.POST,instance=book)
+        if form.is_valid():
+            form.save()
+            return redirect('viewrequests/')
+    return render(request,"status.html",{'form':form})
+
+
+def book_selected_item(request,pid):
+    book=Appointment.objects.get(id=pid)
     if request.method=="POST":
         st=request.POST['status']
-        sta=Status.objects.create(status=st)
-  
-    return render(request,"status.html",{})
+        sta= Status.objects.get(status=st)
+        book.stat=sta
+        book.save()
+    return render(request,"ViewBookings.html",{'book':book})    
 
-def confirm(request):
-    s=Status.objects.all()
-    error=""
-    app=Appointment.objects.all()
-    if request.method=="POST":
-        st=request.POST['status']
-        statu=Status.objects.filter(status=st).first()
-        Appointment.objects.create(stat=statu)
-        error="No"
-    else:
-        error="Yes"    
-    d={'statu':s,'a':app,'error':error}
-    return render(request,"confirm.html",d)
+def delete(request,pid):
+    ap=Appointment.objects.get(id=pid)    
+    ap.delete()
+    return redirect('viewrequests/')
 
-def book_selected_item(request):
-    app=Appointment.objects.filter()    
-    context={
-        'app':app }
-    return render(request,"ViewBookings.html",context)    
+def pay(request):
+        return HttpResponse(render(request,"pay.html",{}))    
 
     
