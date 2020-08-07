@@ -1,0 +1,64 @@
+{% load static %}
+<html>
+<head>
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+   <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+   <link rel="stylesheet" href="{% static 'css/blog5.css' %}">
+   <title>Angels</title>
+   <link rel = "icon" href =  "{% static 'css/images/logos.png'%}" type = "image/x-icon">
+</head><br><br>
+<div style="background-position:absolute;background-image:url('{%static 'css/images/wall2.jpg'%}');
+        position:absolute;height:1140;width:1250;background-size:cover">
+<body>
+ <center> <h1><img id="logo" src="{% static 'css/images/logo.png'%}">Beautiful Creations</h1></center>
+      <div id="head">
+           <div id="fastop"><a href="{% url 'manage:registered'%}">Designs</a></div>
+           <div id="fastop"><a href="{% url 'manage:bookings' %}">Bookings</a></div>
+           <div id="fastop"><a href="{% url 'manage:appointments'%}">Add Appointment </a></div>
+           <div id="fastop"><a href="{% url 'manage:log'%}">Logout</a></div> 
+           <div id="fastop">Hi,{{user.username}}</div> 
+              
+       </div>
+<form>
+  <center>
+     <div style="background-color:grey;width:50%;height:60%;float-top:28%">
+      <img id="img" src="{% static 'css/images/c-card.png'%}">  <img id="img" src="{% static 'css/images/d-card.png'%}">
+    <h3 style="font-left:55px">Card Number</h3>
+  <img id="logo" src="{% static 'css/images/card-icon.png'%}"><input type="text" name="text" size=65px></input><br>
+    <h3 style="float-left:2%;float-right:3%;">EXPIRY DATE</h3> 
+    <p style="float-left:2%;float-right:5%;"><input type="date" name="date" size=30px></input>
+    <h3 style="float-left:2%;float-right:3%;">CVC CODE</h3>
+    <p style="float-left:2%;float-right:5%;"><input type="text" name="cvc" size=30px></input>
+    <h3 style="font-left:55px">Card Holder Name</h3>
+    <input type="text" name="card" size=65px></input>
+     <h3 style="font-left:55px">Amount</h3>
+    <input type="text" name="amount" size=65px></input><br><br>
+    <center>
+    <a href="{% url 'manage:appointments'%}"><button onclick="myfun()" name="Pay now" value="Pay" style="background-color:green;size:15px">Pay</button></a>
+    </center>
+  </div>
+  </center>
+  <script>
+    function myfun()
+    {
+        alert("Payment is done");
+    }
+  </script>
+</body>
+</form>
+<style>
+ #logo{
+     float-top:28%;
+     height:3.6%;
+     width:4%; 
+     float-left:4%;
+     }
+ #img{
+     height:17%;
+     width:22%;
+     float-right:5%;
+     float-left:5%;
+ }    
+</style>
+
+</html>
