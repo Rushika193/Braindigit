@@ -1,0 +1,391 @@
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Hi 1.0
+INFO:chatterbot.chatterbot:Using "Hi" as a close match to "hi" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 7 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 7 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Hello, How are you?"
+INFO:chatterbot.chatterbot:BestMatch selected "Hello, How are you?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "hi" as a response to "hi"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Hi 1.0
+INFO:chatterbot.chatterbot:Using "Hi" as a close match to "hi" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "hi"
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "Hello, How are you?"
+INFO:chatterbot.chatterbot:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.chatterbot:Response selected. Using "hello"
+INFO:chatterbot.chatterbot:BestMatch selected "hello" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "hi" as a response to "hi"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Hi 1.0
+INFO:chatterbot.chatterbot:Using "Hi" as a close match to "hi" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "hi"
+INFO:chatterbot.chatterbot:Selecting response from 11 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 11 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Hello, How are you?"
+INFO:chatterbot.chatterbot:BestMatch selected "Hello, How are you?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "hi" as a response to "what you like to play?"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: what's up 1.0
+INFO:chatterbot.chatterbot:Using "what's up" as a close match to "what's up" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "hi"
+INFO:chatterbot.chatterbot:Selecting response from 2 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 2 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Hi"
+INFO:chatterbot.chatterbot:BestMatch selected "Hi" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "what's up" as a response to "hi"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: I like to cook, read and painting. 0.39
+INFO:chatterbot.chatterbot:Similar text found: I like to play badmintton and basketball 0.42
+INFO:chatterbot.chatterbot:Similar text found: what you like to play? 1.0
+INFO:chatterbot.chatterbot:Using "what you like to play?" as a close match to "what you like to play?" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 2 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 2 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Okay, What about sports?"
+INFO:chatterbot.chatterbot:BestMatch selected "Okay, What about sports?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "what you like to play?" as a response to "what's up"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: I like to cook, read and painting. 0.39
+INFO:chatterbot.chatterbot:Similar text found: I like to play badmintton and basketball 0.42
+INFO:chatterbot.chatterbot:Similar text found: what you like to play? 1.0
+INFO:chatterbot.chatterbot:Using "what you like to play?" as a close match to "what you like to play?" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 3 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 3 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Okay, What about sports?"
+INFO:chatterbot.chatterbot:BestMatch selected "Okay, What about sports?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "what you like to play?" as a response to "what you like to play?"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Hi 1.0
+INFO:chatterbot.chatterbot:Using "Hi" as a close match to "hi" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "what you like to play?"
+INFO:chatterbot.chatterbot:1. Excluding recent repeated response of "Okay, What about sports?"
+INFO:chatterbot.chatterbot:Selecting response from 16 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 16 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Hello, How are you?"
+INFO:chatterbot.chatterbot:BestMatch selected "Hello, How are you?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "hi" as a response to "what you like to play?"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "fine" as a close match to "fine" with a confidence of 0
+INFO:chatterbot.chatterbot:Selecting response from 27 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 27 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Hi"
+INFO:chatterbot.chatterbot:BestMatch selected "Hi" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "fine" as a response to "hi"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "tell me something" as a close match to "tell me something" with a confidence of 0
+INFO:chatterbot.chatterbot:Selecting response from 27 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 27 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Hi"
+INFO:chatterbot.chatterbot:BestMatch selected "Hi" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "tell me something" as a response to "fine"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: I like to cook, read and painting. 0.39
+INFO:chatterbot.chatterbot:Similar text found: I like to play badmintton and basketball 0.42
+INFO:chatterbot.chatterbot:Similar text found: what you like to play? 1.0
+INFO:chatterbot.chatterbot:Using "what you like to play?" as a close match to "what you like to play?" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 6 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 6 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Okay, What about sports?"
+INFO:chatterbot.chatterbot:BestMatch selected "Okay, What about sports?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "what you like to play?" as a response to "tell me something"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: I like to cook, read and painting. 0.51
+INFO:chatterbot.chatterbot:Similar text found: I like to play badmintton and basketball 0.6
+INFO:chatterbot.chatterbot:Using "I like to cook, read and painting." as a close match to "I like badmintton" with a confidence of 0.51
+INFO:chatterbot.chatterbot:Selecting response from 4 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 4 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Okay, What about sports?"
+INFO:chatterbot.chatterbot:BestMatch selected "Okay, What about sports?" as a response with a confidence of 0.51
+INFO:chatterbot.chatterbot:Adding "I like badmintton" as a response to "what you like to play?"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: I like to cook, read and painting. 0.51
+INFO:chatterbot.chatterbot:Similar text found: I like to play badmintton and basketball 0.6
+INFO:chatterbot.chatterbot:Similar text found: I like badmintton 1.0
+INFO:chatterbot.chatterbot:Using "I like badmintton" as a close match to "I like badmintton" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 1 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 1 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Okay, What about sports?"
+INFO:chatterbot.chatterbot:BestMatch selected "Okay, What about sports?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "I like badmintton" as a response to "I like badmintton"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Okay, What about sports? 0.47
+INFO:chatterbot.chatterbot:Using "Okay, What about sports?" as a close match to "i don't like sports" with a confidence of 0.47
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "Okay, What about sports?"
+INFO:chatterbot.chatterbot:Selecting response from 4 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 4 options.
+INFO:chatterbot.chatterbot:Response selected. Using "I like to play badmintton and basketball"
+INFO:chatterbot.chatterbot:BestMatch selected "I like to play badmintton and basketball" as a response with a confidence of 0.47
+INFO:chatterbot.chatterbot:Adding "i don't like sports" as a response to "I like badmintton"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: I am good. What about you? 0.27
+INFO:chatterbot.chatterbot:Similar text found: I am good too. 0.44
+INFO:chatterbot.chatterbot:Using "I am good. What about you?" as a close match to "good" with a confidence of 0.27
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "Okay, What about sports?"
+INFO:chatterbot.chatterbot:Selecting response from 8 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 8 options.
+INFO:chatterbot.chatterbot:Response selected. Using "I am good too."
+INFO:chatterbot.chatterbot:BestMatch selected "I am good too." as a response with a confidence of 0.27
+INFO:chatterbot.chatterbot:Adding "good" as a response to "i don't like sports"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "wow" as a close match to "wow" with a confidence of 0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "Okay, What about sports?"
+INFO:chatterbot.chatterbot:Selecting response from 27 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 27 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Hi"
+INFO:chatterbot.chatterbot:BestMatch selected "Hi" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "wow" as a response to "good"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "bye" as a close match to "bye" with a confidence of 0
+INFO:chatterbot.chatterbot:Selecting response from 27 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 27 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Hi"
+INFO:chatterbot.chatterbot:BestMatch selected "Hi" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "bye" as a response to "wow"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Hi 1.0
+INFO:chatterbot.chatterbot:Using "Hi" as a close match to "hi" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 18 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 18 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Hello, How are you?"
+INFO:chatterbot.chatterbot:BestMatch selected "Hello, How are you?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "hi" as a response to "bye"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "what are u doing?" as a close match to "what are u doing?" with a confidence of 0
+INFO:chatterbot.chatterbot:Selecting response from 30 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 30 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Hi"
+INFO:chatterbot.chatterbot:BestMatch selected "Hi" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "what are u doing?" as a response to "hi"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: - A man in a mask. 0.94
+INFO:chatterbot.chatterbot:Using "- A man in a mask." as a close match to "A man in a mask." with a confidence of 0.94
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "Hi"
+INFO:chatterbot.chatterbot:Selecting response from 25 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 25 options.
+INFO:chatterbot.chatterbot:Response selected. Using "- I can see that."
+INFO:chatterbot.chatterbot:BestMatch selected "- I can see that." as a response with a confidence of 0.94
+INFO:chatterbot.chatterbot:Adding "A man in a mask." as a response to "what are u doing?"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: I like to cook, read and painting. 0.44
+INFO:chatterbot.chatterbot:Similar text found: - I like seeing movies. 0.95
+INFO:chatterbot.chatterbot:Using "- I like seeing movies." as a close match to "I like seeing movies." with a confidence of 0.95
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "Hi"
+INFO:chatterbot.chatterbot:Selecting response from 25 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 25 options.
+INFO:chatterbot.chatterbot:Response selected. Using "- What kind of movies do you like?"
+INFO:chatterbot.chatterbot:BestMatch selected "- What kind of movies do you like?" as a response with a confidence of 0.95
+INFO:chatterbot.chatterbot:Adding "I like seeing movies." as a response to "A man in a mask."
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "comedy and you" as a close match to "comedy and you" with a confidence of 0
+INFO:chatterbot.chatterbot:Selecting response from 30 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 30 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Hi"
+INFO:chatterbot.chatterbot:BestMatch selected "Hi" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "comedy and you" as a response to "I like seeing movies."
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: I like to cook, read and painting. 0.39
+INFO:chatterbot.chatterbot:Similar text found: - I wish I was The Mad Hatter. 0.97
+INFO:chatterbot.chatterbot:Using "- I wish I was The Mad Hatter." as a close match to "I wish I was The Mad Hatter." with a confidence of 0.97
+INFO:chatterbot.chatterbot:Selecting response from 25 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 25 options.
+INFO:chatterbot.chatterbot:Response selected. Using "- You're entirely bonkers. But I'll tell you a secret. All the best people are."
+INFO:chatterbot.chatterbot:BestMatch selected "- You're entirely bonkers. But I'll tell you a secret. All the best people are." as a response with a confidence of 0.97
+INFO:chatterbot.chatterbot:Adding "I wish I was The Mad Hatter." as a response to "comedy and you"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: - What are you working on? 0.96
+INFO:chatterbot.chatterbot:Using "- What are you working on?" as a close match to "What are you working on?" with a confidence of 0.96
+INFO:chatterbot.chatterbot:Selecting response from 25 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 25 options.
+INFO:chatterbot.chatterbot:Response selected. Using "- I am baking a cake."
+INFO:chatterbot.chatterbot:BestMatch selected "- I am baking a cake." as a response with a confidence of 0.96
+INFO:chatterbot.chatterbot:Adding "What are you working on?" as a response to "I wish I was The Mad Hatter."
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: bye 1.0
+INFO:chatterbot.chatterbot:Using "bye" as a close match to "bye" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 2 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 2 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Hi"
+INFO:chatterbot.chatterbot:BestMatch selected "Hi" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "bye" as a response to "What are you working on?"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Hi 1.0
+INFO:chatterbot.chatterbot:Using "Hi" as a close match to "hi" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 20 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 20 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Hello, How are you?"
+INFO:chatterbot.chatterbot:BestMatch selected "Hello, How are you?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "hi" as a response to "bye"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: comedy and you 0.69
+INFO:chatterbot.chatterbot:Using "comedy and you" as a close match to "fine and you" with a confidence of 0.69
+INFO:chatterbot.chatterbot:Selecting response from 2 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 2 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Hi"
+INFO:chatterbot.chatterbot:BestMatch selected "Hi" as a response with a confidence of 0.69
+INFO:chatterbot.chatterbot:Adding "fine and you" as a response to "hi"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Hello, How are you? 0.53
+INFO:chatterbot.chatterbot:Similar text found: - How are you doing? 0.82
+INFO:chatterbot.chatterbot:Using "Hello, How are you?" as a close match to "what are you doing?" with a confidence of 0.53
+INFO:chatterbot.chatterbot:Selecting response from 4 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 4 options.
+INFO:chatterbot.chatterbot:Response selected. Using "I am good. What about you?"
+INFO:chatterbot.chatterbot:BestMatch selected "I am good. What about you?" as a response with a confidence of 0.53
+INFO:chatterbot.chatterbot:Adding "what are you doing?" as a response to "fine and you"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "how are you feeling now?" as a close match to "how are you feeling now?" with a confidence of 0
+INFO:chatterbot.chatterbot:Selecting response from 36 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 36 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Hi"
+INFO:chatterbot.chatterbot:BestMatch selected "Hi" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "how are you feeling now?" as a response to "what are you doing?"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Hi 1.0
+INFO:chatterbot.chatterbot:Using "Hi" as a close match to "hi" with a confidence of 1.0
+INFO:chatterbot.chatterbot:0. Excluding recent repeated response of "Hi"
+INFO:chatterbot.chatterbot:Selecting response from 22 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 22 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Hello, How are you?"
+INFO:chatterbot.chatterbot:BestMatch selected "Hello, How are you?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "hi" as a response to "how are you feeling now?"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: I am good. What about you? 0.27
+INFO:chatterbot.chatterbot:Similar text found: I am good too. 0.44
+INFO:chatterbot.chatterbot:Similar text found: good 1.0
+INFO:chatterbot.chatterbot:Using "good" as a close match to "good" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 2 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 2 options.
+INFO:chatterbot.chatterbot:Response selected. Using "I am good too."
+INFO:chatterbot.chatterbot:BestMatch selected "I am good too." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "good" as a response to "hi"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: wow 1.0
+INFO:chatterbot.chatterbot:Using "wow" as a close match to "wow" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 2 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 2 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Hi"
+INFO:chatterbot.chatterbot:BestMatch selected "Hi" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "wow" as a response to "good"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: Hi 1.0
+INFO:chatterbot.chatterbot:Using "Hi" as a close match to "hi" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 24 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 24 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Hello, How are you?"
+INFO:chatterbot.chatterbot:BestMatch selected "Hello, How are you?" as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "hi" as a response to "wow"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: I am good. What about you? 0.27
+INFO:chatterbot.chatterbot:Similar text found: I am good too. 0.44
+INFO:chatterbot.chatterbot:Similar text found: good 1.0
+INFO:chatterbot.chatterbot:Using "good" as a close match to "good" with a confidence of 1.0
+INFO:chatterbot.chatterbot:Selecting response from 4 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 4 options.
+INFO:chatterbot.chatterbot:Response selected. Using "I am good too."
+INFO:chatterbot.chatterbot:BestMatch selected "I am good too." as a response with a confidence of 1.0
+INFO:chatterbot.chatterbot:Adding "good" as a response to "hi"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: I like to cook, read and painting. 0.45
+INFO:chatterbot.chatterbot:Similar text found: what you like to play? 0.65
+INFO:chatterbot.chatterbot:Using "I like to cook, read and painting." as a close match to "what you like to do in free time?" with a confidence of 0.45
+INFO:chatterbot.chatterbot:Selecting response from 4 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 4 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Okay, What about sports?"
+INFO:chatterbot.chatterbot:BestMatch selected "Okay, What about sports?" as a response with a confidence of 0.45
+INFO:chatterbot.chatterbot:Adding "what you like to do in free time?" as a response to "good"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Similar text found: - A lot of things, like all the other digits other than 0 and 1. 0.3
+INFO:chatterbot.chatterbot:Using "- A lot of things, like all the other digits other than 0 and 1." as a close match to "i like badmintton" with a confidence of 0.3
+INFO:chatterbot.chatterbot:Selecting response from 30 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 30 options.
+INFO:chatterbot.chatterbot:Response selected. Using "- - What does YOLO mean?"
+INFO:chatterbot.chatterbot:BestMatch selected "- - What does YOLO mean?" as a response with a confidence of 0.3
+INFO:chatterbot.chatterbot:Adding "i like badmintton" as a response to "what you like to do in free time?"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "i don't know" as a close match to "i don't know" with a confidence of 0
+INFO:chatterbot.chatterbot:Selecting response from 40 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 40 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Hi"
+INFO:chatterbot.chatterbot:BestMatch selected "Hi" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "i don't know" as a response to "i like badmintton"
+INFO:chatterbot.chatterbot:Beginning search for close text match
+WARNING:chatterbot.chatterbot:No value for search_text was available on the provided input
+INFO:chatterbot.chatterbot:Processing search results
+INFO:chatterbot.chatterbot:Using "hwlw" as a close match to "hwlw" with a confidence of 0
+INFO:chatterbot.chatterbot:Selecting response from 40 optimal responses.
+INFO:chatterbot.response_selection:Selecting first response from list of 40 options.
+INFO:chatterbot.chatterbot:Response selected. Using "Hi"
+INFO:chatterbot.chatterbot:BestMatch selected "Hi" as a response with a confidence of 0
+INFO:chatterbot.chatterbot:Adding "hwlw" as a response to "i don't know"

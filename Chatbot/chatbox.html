@@ -1,0 +1,123 @@
+<html>
+<head>
+<title>Chat Bot</title>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+<script>
+    var ws = new WebSocket("ws://localhost:8000");
+
+    $(window).on('beforeunload',function(){
+        ws.close();
+    });
+
+    ws.onerror=function(event){
+        location.reload();
+    }
+
+    ws.onmessage=function(event){
+        var message=event.data;
+        chat_add_message(message,false);
+        
+    }
+
+   
+    function chat_add_message(message,isUser)
+    {
+        var suffix=isUser?'_user':'';
+        var html='\
+                <div class="chat_line ">\
+                 <div class="chat_bubble'+suffix+'">\
+                        <div id="chat_triangle'+suffix+'"></div>\
+                            '+message+'\
+                         </div>\
+                 </div>\
+               ';
+        chat_add_html(html);
+    }
+
+    function chat_add_html(html)
+    {
+        $('#chat_log').append(html);
+        scrolldown();
+    }
+
+     function scrolldown()
+    {
+        $('#chat_log').animate({scrollTop:$('#chat_log')[0].scrollHeight},300);
+    }
+     //send mesage on enter
+    $(function()
+    {
+        $('#chat_input').on('keypress',function(event){
+            if(event.which===13 && $(this).val()!='')
+            {
+                var message=$(this).val();
+                $(this).val("");
+                chat_add_message(message,true);
+                ws.send(message);
+            }
+        });
+    });
+
+    </script>
+   
+    <style>
+       #chat_log{
+           width:1300px;
+           height:300px;
+           overflow-y:scroll;
+           background-color:palegoldenrod;
+           padding:15px 5px 15px 5px;
+           margin-bottom:1%;
+           border-radius:15px;
+       }
+        .chat_bubble, .chat_bubble_user{
+            position:relative;
+            float:left;
+            color:black;
+            line-height: 25px;
+            background-color:lightblue;
+             margin-left:20px;
+             margin-top: 10px;
+            margin-right: 0px;
+            padding:5px 5px 5px 5px;
+            border-style:solid;
+        }
+        .chat_bubble_user{
+            float:right;
+            line-height: 35px;
+            margin-right: 20px;
+            padding:5px 5px 5px 5px;
+            border-style:solid;
+            color:black;
+            background-color:hotpink;
+        }
+        .chat_container{
+            padding:15px 5px 15px 5px;
+            margin:5px 5px 5px 5px;
+            border-style:solid;
+            border-radius:20px;
+            overflow: hidden;
+        }
+
+        #chat_input{
+            color:black;
+            height:5%;
+            border-style:solid;
+            width:100%;
+        }
+        .chat_input_set{
+             padding:5px 5px 5px 5px;
+             border-style:solid;
+        }
+        .chat_line{
+            overflow:hidden;
+        }
+    </style>
+     </head>
+    <body>
+       <div class="chat_container">
+           <div id="chat_log"></div>
+           <div class="chat_input_set"><input id="chat_input"/></div>
+         </div>  
+    </body>
+    </html>
